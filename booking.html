@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Room Booking System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Room Booking System</h1>
+  <div>
+    <label for="date">Date:</label>
+    <input type="date" id="date">
+    <label for="time">Time:</label>
+    <input type="time" id="time">
+    <button onclick="bookRoom()">Book Room</button>
+  </div>
+  <div id="booking-message" style="display: none;"></div>
+  <script>
+    function bookRoom() {
+        alert("Room has been booked!");
+    }
+  </script>
+</body>
+</html
