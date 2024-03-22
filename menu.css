@@ -1,0 +1,71 @@
+/*.body{
+  height: 180px;
+  width:150px;
+    background-color: rgb(225, 155, 235);
+    position: absolute;  
+}*/
+.header{
+    padding: 10px;
+    text-align: center;
+    background: grey;
+    color: black;
+    font-size: 30px;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(menu.back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300vh;
+    color:aliceblue;
+}
+h1{
+    text-decoration: double;
+    text-align:center;
+}
+.cognac{
+    left: 250px;
+    position: absolute;
+    border-spacing:15px ;
+}
+
+.Second-section{
+    position: absolute;
+    left: 500px;
+    top: 0px;
+}
+
+.Breakfast{
+    position: absolute;
+    left: 250px;
+    top: 750px;
+    text-align: center;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.meals{
+    position: absolute;
+    left: 250px;
+    top: 1050px;
+    text-align: center;
+
+}
+.sidedish{
+    position: absolute;
+    left: 500px;
+    top: 1300px;
+    text-align: center;
+    
+
+}
+.desserts{
+    position: absolute;
+    left: 500px;
+    top: 1800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
